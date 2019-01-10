@@ -25,6 +25,6 @@ while True:
                                    path='/friendships/accept.json',
                                    payload_type='user',
                                    allowed_param=['user_id'])(user_id=id)
-        time.sleep(60*3)
     except Exception as e:
         print(e)
+    time.sleep(60*3)
